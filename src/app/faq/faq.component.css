@@ -1,0 +1,28 @@
+.faq-items {
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .faq-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .faq-p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    .common-bg {
+        padding: 1vh;
+      }
+    
+      #collapseID1,
+      #collapseID2,
+      #collapseID3 {
+        width: 100%;
+      }
+  }

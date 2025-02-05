@@ -1,0 +1,17 @@
+.color-overlay-banner-2 {
+    background: var(--overlay-color);
+  }
+  .banner2 {
+    text-align: center;
+    background-size: cover;
+    min-height: var(--height);
+    position: relative;
+    align-items: center;
+  }
+  .banner2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: var(--height);
+  }

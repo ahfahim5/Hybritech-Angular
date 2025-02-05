@@ -1,0 +1,66 @@
+@import 'swiper/swiper-bundle.css';
+
+
+.client {
+    background-color: var(--black);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .swiper-slide {
+    flex-shrink: 0;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+  }
+  
+  .client-title {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+  }
+  
+  .card-wrapper {
+    max-width: 1080px;
+    margin: 0 60px 35px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .card-wrapper .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #01b7c5;
+  }
+  
+  .card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+  .swiper-button-next,
+.swiper-button-prev {
+  color: #fff;  /* Set the color of navigation buttons */
+  background-color: rgba(0, 0, 0, 0.5);  /* Background color */
+  padding: 10px;  /* Adjust size */
+  border-radius: 50%;  /* Round buttons */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8);  /* Hover effect */
+}
+
+.swiper-button-next {
+  right: 10px;  /* Position the "next" button to the right */
+  z-index: 10;  /* Ensure the button is above other elements */
+}
+
+.swiper-button-prev {
+  left: 10px;  /* Position the "prev" button to the left */
+  z-index: 10;  /* Ensure the button is above other elements */
+}
+
