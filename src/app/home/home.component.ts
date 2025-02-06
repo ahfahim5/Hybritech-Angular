@@ -7,11 +7,11 @@ import { DeliveringImpactComponent } from "./delivering-impact/delivering-impact
 import { DevelopSmartComponent } from "./develop-smart/develop-smart.component";
 import { FAQComponent } from "../faq/faq.component";
 import { FormComponent } from "../form/form.component";
-import { FooterComponent } from "../footer/footer.component";
+
 
 @Component({
   selector: 'app-home',
-  imports: [BannerComponent, ClientSectionComponent, Banner2Component, DynamicTeamComponent, DeliveringImpactComponent, DevelopSmartComponent, FAQComponent, FormComponent, FooterComponent],
+  imports: [BannerComponent, ClientSectionComponent, Banner2Component, DynamicTeamComponent, DeliveringImpactComponent, DevelopSmartComponent, FAQComponent, FormComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

@@ -84,9 +84,6 @@
 
   @media screen and (max-width: 768px) {
     .common-bg {
-        padding: 1px;
-    }
-    .common-bg {
         min-height: 60vh;
       }
       .header-title{

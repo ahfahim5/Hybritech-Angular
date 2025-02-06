@@ -12,9 +12,3 @@
     width: 80%;
     padding-left: 50px;
   }
-  @media screen and (max-width: 768px) {
-    .common-bg {
-        padding: 1px;
-        width: 100%;
-    }
-}

@@ -3,10 +3,6 @@
     height: 80%;
   }
 @media screen and (max-width: 768px) {
-    .common-bg {
-        padding: 1px;
-        width: 100%;
-    }
     .mid-img {
         width: 100%;
         height: 100%;

@@ -1,0 +1,20 @@
+.career-logo {
+    width: 437.82px;
+    height: 148.18px;
+  }
+  
+  .career-part {
+    padding-top: 10vh;
+  }
+  @media screen and (max-width: 768px) {
+    .career-logo {
+        width: 200px;
+        height: 100px;
+        padding-bottom: 2vh;
+      }
+    
+      .career-part {
+        padding-top: 10vh;
+      }
+    
+  }

@@ -16,9 +16,7 @@
     width: 100%;
   }
   @media screen and (max-width: 768px) {
-    .common-bg {
-        padding: 1vh;
-      }
+
     
       #collapseID1,
       #collapseID2,

@@ -35,9 +35,6 @@
     rotate: 90deg;
   }
   @media screen and (max-width: 768px) {
-    .common-bg {
-        padding: 2vh 2vh;
-      }
       .service-header{
         padding: 0;
         width: 100%;

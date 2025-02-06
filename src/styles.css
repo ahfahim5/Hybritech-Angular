@@ -21,6 +21,7 @@
     padding: 8px 12px 8px 12px;
     border-radius: 8px;
     color: rgba(129, 206, 208, 1);
+    margin: 5px;
   }
   
   .btn-common:hover {
@@ -50,4 +51,10 @@
   
   ::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-color);
+  }
+
+  @media screen and (max-width: 768px) {
+    .common-bg {
+        padding: 1vh;
+      }
   }

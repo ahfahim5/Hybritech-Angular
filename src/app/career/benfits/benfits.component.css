@@ -1,0 +1,39 @@
+#card-content-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-bottom: 10vh;
+    width: 40%;
+  }
+  .title-bg {
+    background: linear-gradient(90deg, #01b7c5 0%, #1a1822 100%);
+  }
+  .circle {
+    position: relative;
+    display: inline-block;
+    background-color: var(--black);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .circle h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-weight: lighter;
+  }
+  @media screen and (max-width: 768px) {
+      #card-content-title {
+        width: 80%;
+      }
+    
+  }
+
+  
