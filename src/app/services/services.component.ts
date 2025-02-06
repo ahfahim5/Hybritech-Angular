@@ -8,7 +8,7 @@ import { OurServicesComponent } from "./our-services/our-services.component";
 
 @Component({
   selector: 'app-services',
-  imports: [ServiceBanner1Component, FAQComponent, FooterComponent, FormComponent, OurServicesComponent],
+  imports: [ServiceBanner1Component, FAQComponent,  FormComponent, OurServicesComponent],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
 })
