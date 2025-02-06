@@ -1,6 +1,6 @@
 .banner {
     min-height: var(--height);
-    background-image: url(https://hybri.tech/assets/images/home-1/service_banner.png);
+    background-image: url(../../../../public/img/banner.jpeg);
 }
 
 .banner-overlay {
